@@ -2,6 +2,7 @@
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
+ * 
  */
 
 #include <behaviors.dtsi>
@@ -33,13 +34,13 @@
             mods = <(MOD_LSFT)>;
         };
 
-        minus_under: minus_under: {
+        minus_under: minus_under {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp DE_MINUS>, <&kp DE_UNDER>;
             mods = <(MOD_LSFT)>;
         };
-        hash_quote: hash_quote: {
+        hash_quote: hash_quote {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp DE_HASH>, <&kp DE_SINGLE_QUOTE>;
